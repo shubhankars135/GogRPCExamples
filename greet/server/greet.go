@@ -5,7 +5,6 @@ import (
 	"log"
 
 	pb  "github.com/shubhankars135/Go-GRPC-Unary-sample/greet/proto"
-
 )
 
 func (s *Server) Greet(ctx context.Context, in *pb.GreetRequest) (*pb.GreetResponse, error) {

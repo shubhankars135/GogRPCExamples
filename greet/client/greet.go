@@ -19,5 +19,5 @@ func doGreet(c pb.GreetServiceClient) {
 		log.Fatalf("Could'nu %v\n", err)
 	}
 
-	log.Println("Greeting %s\n", res.Result)
+	log.Printf("Greeting %s\n", res.Result)
 }
